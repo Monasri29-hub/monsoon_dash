@@ -1,0 +1,20 @@
+Monsoon Dash 0.41.0 — scripted desktop gameplay demo
+
+Duration: 25 seconds. H.264 video / AAC audio, 480 x 960 portrait.
+The game was rendered at 320 x 568 and sampled at 12 frames per second;
+the presentation is encoded at 24 fps with repeated frames. This is not a
+mobile FPS measurement. No AI-generated motion or concept-image animation
+is used in the demo footage.
+
+Timeline:
+00:00 Home
+00:02 Terrace Quarter
+00:07 Lantern Bazaar
+00:12 Canal Works
+00:17 Cloud Gardens
+00:22 Home / closing line
+
+Actual Godot 4.5.2 game renderer with scripted lane changes and umbrella glide.
+The short capture routes and unlocked worlds/characters are in-memory showcase
+fixtures only. The Android APK and its progression rules were not modified.
+Music: the game's original synthesized menu composition, added beneath footage.

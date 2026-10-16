@@ -1,0 +1,32 @@
+[
+  {
+    "suite": "test_visual4",
+    "exit": 0,
+    "errors": false,
+    "tail": "Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org\n\nVisual Phase 4: 262 checks; failures 0\n"
+  },
+  {
+    "suite": "test_final_art",
+    "exit": 0,
+    "errors": false,
+    "tail": "Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org\n\nFinal art: 69 checks; failures 0\n"
+  },
+  {
+    "suite": "test_art_phase6",
+    "exit": 0,
+    "errors": false,
+    "tail": "Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org\n\nArt Phase 6: 50 checks; failures: 0\n"
+  },
+  {
+    "suite": "test_final_ui",
+    "exit": 0,
+    "errors": false,
+    "tail": "Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org\n\nFinal UI: 174 checks; failures: 0\n"
+  },
+  {
+    "suite": "test_hud_bounds",
+    "exit": 0,
+    "errors": false,
+    "tail": "Godot Engine v4.5.2.stable.official.6ce3de25a - https://godotengine.org\n\nHUD bounds: 2 sizes; 0 failures\n"
+  }
+]

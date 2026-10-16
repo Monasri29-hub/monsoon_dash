@@ -8,11 +8,13 @@ A 3D endless runner for Android, set across monsoon rooftops, lantern bazaars, w
 
 **Godot 4.5.2 · GDScript · Android ARM64 · 0.41.0 Playtest**
 
-[Download Android APK](https://github.com/Monasri29-hub/monsoon_dash/raw/refs/heads/main/downloads/Monsoon-Dash.apk) · [Watch the gameplay demo](https://github.com/Monasri29-hub/monsoon_dash/raw/refs/heads/main/docs/demo/Monsoon-Dash-Demo.mp4) · [Report a bug](https://github.com/Monasri29-hub/monsoon_dash/issues)
+**Android APK: public download pending** · [Watch the gameplay demo](docs/demo/Monsoon-Dash-Demo.mp4) · [Report a bug](https://github.com/Monasri29-hub/monsoon_dash/issues)
 
-<img src="https://raw.githubusercontent.com/Monasri29-hub/monsoon_dash/main/docs/screenshots/overview.png" alt="Monsoon Dash: home screen and gameplay across Terrace Quarter, Lantern Bazaar, Canal Works and Cloud Gardens" width="1200" />
+<img src="docs/screenshots/overview.png" alt="Monsoon Dash: home screen and gameplay across Terrace Quarter, Lantern Bazaar, Canal Works and Cloud Gardens" width="1200" />
 
 </div>
+
+> **Repository status:** Screenshots, demo video and supporting documentation are available here. The full game source/assets and public APK download are not yet published to this repository.
 
 > **Build status:** This is a playable Android review build. Automated regression and packaging checks passed; physical-phone performance, installation/save retention and final visual acceptance remain pending. The project is not a Play Store release.
 
@@ -42,19 +44,19 @@ Monsoon Dash follows a courier through a rain-soaked world of rooftops, bridges,
 
 The game combines a familiar three-lane runner loop with a monsoon setting, an expressive cloud companion named **Boondi**, and four districts with different scenery and route patterns. Canal Works introduces waterboard presentation and board/glide transitions, while the remaining districts center on running and umbrella crossings.
 
-Project by **Kundeti Monasri**, developed through an AI-assisted design, implementation, asset-iteration and testing workflow. The repository includes the playable Godot project, editable character art, procedural art builders, regression suites and packaging evidence.
+Project by **Kundeti Monasri**, developed through an AI-assisted design, implementation, asset-iteration and testing workflow. The complete project package includes the playable Godot project, editable character art, procedural art builders, regression suites and packaging evidence; the public repository currently contains showcase media and supporting documentation.
 
 ## Gameplay demo
 
 <p align="center">
-  <a href="https://github.com/Monasri29-hub/monsoon_dash/raw/refs/heads/main/docs/demo/Monsoon-Dash-Demo.mp4">
-    <img src="https://raw.githubusercontent.com/Monasri29-hub/monsoon_dash/main/docs/screenshots/home.png" alt="Click to watch the Monsoon Dash gameplay demo" width="300" />
+  <a href="docs/demo/Monsoon-Dash-Demo.mp4">
+    <img src="docs/screenshots/home.png" alt="Click to watch the Monsoon Dash gameplay demo" width="300" />
   </a>
   <br />
   <strong>Click the preview to watch or download the 25-second demo.</strong>
 </p>
 
-**Video source:** [docs/demo/Monsoon-Dash-Demo.mp4](https://github.com/Monasri29-hub/monsoon_dash/raw/refs/heads/main/docs/demo/Monsoon-Dash-Demo.mp4)
+**Video source:** [docs/demo/Monsoon-Dash-Demo.mp4](docs/demo/Monsoon-Dash-Demo.mp4)
 
 | Time | Scene |
 |---|---|
@@ -73,7 +75,7 @@ The capture was sampled at 12 frames per second and encoded at 24 fps with repea
 
 ### Android APK
 
-**[Download Monsoon-Dash.apk](https://github.com/Monasri29-hub/monsoon_dash/raw/refs/heads/main/downloads/Monsoon-Dash.apk)**
+**Public APK download is not published yet.** The APK is supplied separately in the complete downloadable project package.
 
 | Property | Current build |
 |---|---|
@@ -98,7 +100,7 @@ The downloadable APK uses the project's existing review signing identity. An ind
 
 ### Verify the download
 
-[Download SHA256SUMS.txt](https://raw.githubusercontent.com/Monasri29-hub/monsoon_dash/main/downloads/SHA256SUMS.txt)
+[Download SHA256SUMS.txt](downloads/SHA256SUMS.txt)
 
 Expected APK SHA-256:
 
@@ -157,7 +159,7 @@ World unlock thresholds use accumulated distance in saved progression, rather th
 ### World 1 — Terrace Quarter
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Monasri29-hub/monsoon_dash/main/docs/screenshots/terrace.png" alt="Terrace Quarter gameplay with rooftop architecture, rain, Tara and Boondi" width="320" />
+  <img src="docs/screenshots/terrace.png" alt="Terrace Quarter gameplay with rooftop architecture, rain, Tara and Boondi" width="320" />
 </p>
 
 The starting district introduces the core running and umbrella-crossing loop. Rooftop terraces, parapets, plants and warm architectural colors establish the monsoon-city setting.
@@ -165,7 +167,7 @@ The starting district introduces the core running and umbrella-crossing loop. Ro
 ### World 2 — Lantern Bazaar
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Monasri29-hub/monsoon_dash/main/docs/screenshots/bazaar.png" alt="Lantern Bazaar gameplay with slate paths and lantern-lit architecture" width="320" />
+  <img src="docs/screenshots/bazaar.png" alt="Lantern Bazaar gameplay with slate paths and lantern-lit architecture" width="320" />
 </p>
 
 Lantern Bazaar pairs its own track patterns with lantern-lit architecture, warm accents and darker slate paths. It extends the established running mechanics into a different district atmosphere.
@@ -173,7 +175,7 @@ Lantern Bazaar pairs its own track patterns with lantern-lit architecture, warm 
 ### World 3 — Canal Works
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Monasri29-hub/monsoon_dash/main/docs/screenshots/canal.png" alt="Canal Works gameplay showing Tara on a waterboard beside sluice and pump structures" width="320" />
+  <img src="docs/screenshots/canal.png" alt="Canal Works gameplay showing Tara on a waterboard beside sluice and pump structures" width="320" />
 </p>
 
 Canal Works combines waterboard routes with stepped stone lock houses, arched sluice bays, pumps, copper valves and service railings. Its 0.41.0 visual update adds revised water shading, layered skyline scenery, cool mist and a teal district badge.
@@ -181,7 +183,7 @@ Canal Works combines waterboard routes with stepped stone lock houses, arched sl
 ### World 4 — Cloud Gardens
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Monasri29-hub/monsoon_dash/main/docs/screenshots/gardens.png" alt="Cloud Gardens gameplay with planted terraces, pavilions and pale stone paths" width="320" />
+  <img src="docs/screenshots/gardens.png" alt="Cloud Gardens gameplay with planted terraces, pavilions and pale stone paths" width="320" />
 </p>
 
 Cloud Gardens uses planted terraces, pavilions, pergolas, hanging vines, fountains and wind-leaf details. Warmer limestone paths and a lavender skyline distinguish the district from the city and canal areas.
@@ -191,7 +193,7 @@ The 0.41.0 update targeted Canal Works and Cloud Gardens. The 28 prepared World 
 ## Characters and Boondi
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Monasri29-hub/monsoon_dash/main/docs/screenshots/characters.png" alt="Monsoon Dash character selection screen" width="360" />
+  <img src="docs/screenshots/characters.png" alt="Monsoon Dash character selection screen" width="360" />
 </p>
 
 | Character | Role | Unlock cost |
@@ -208,7 +210,7 @@ Character selection, ownership and outfit choices are maintained through the cat
 ## Workshop
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Monasri29-hub/monsoon_dash/main/docs/screenshots/workshop.png" alt="Workshop screen for character outfits, umbrellas and waterboards" width="360" />
+  <img src="docs/screenshots/workshop.png" alt="Workshop screen for character outfits, umbrellas and waterboards" width="360" />
 </p>
 
 The workshop supports purchasing and equipping cosmetic items using **in-game tokens**:
@@ -226,8 +228,8 @@ The interface distinguishes locked, owned and selected items. Character-specific
 The home dashboard provides access to character selection, the world map, workshop, missions, practice and settings. During a run, the HUD shows score, distance, tokens, district information and contextual crossing cues. Pause and results screens support the run flow.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Monasri29-hub/monsoon_dash/main/docs/screenshots/home.png" alt="Home dashboard with Tara, Boondi, navigation and world cards" width="300" />
-  <img src="https://raw.githubusercontent.com/Monasri29-hub/monsoon_dash/main/docs/screenshots/settings.png" alt="Settings screen with audio, rain, motion and control preferences" width="300" />
+  <img src="docs/screenshots/home.png" alt="Home dashboard with Tara, Boondi, navigation and world cards" width="300" />
+  <img src="docs/screenshots/settings.png" alt="Settings screen with audio, rain, motion and control preferences" width="300" />
 </p>
 
 Available preferences include music/sound levels, vibration, optional button controls, companion visibility, reduced motion, and independent **Full / Light / Off** rain quality. Practice/tutorial access helps players learn the controls. Safe-area and compact-screen layouts have automated coverage; device testing remains necessary.
@@ -260,22 +262,22 @@ Enable **Button controls** in Settings to use visible controls instead of relyin
 
 | File | Responsibility |
 |---|---|
-| [`main.gd`](Source/scripts/main.gd) | Application orchestration, input and screen/world coordination |
-| [`run_model.gd`](Source/scripts/run_model.gd) | Gameplay simulation, movement, obstacle interaction and crossings |
-| [`progression.gd`](Source/scripts/progression.gd) | Missions, accumulated progress and world unlock rules |
-| [`save_store.gd`](Source/scripts/save_store.gd) | Persistence, validation, recovery and committed rewards |
-| [`catalogue.gd`](Source/scripts/catalogue.gd) | Character/cosmetic definitions and ownership validation |
-| [`interface.gd`](Source/scripts/interface.gd) | Menus, HUD, results and settings presentation |
-| [`home_dashboard.gd`](Source/scripts/home_dashboard.gd) | Home dashboard composition |
-| [`world_art.gd`](Source/scripts/world_art.gd) / [`world_cache.gd`](Source/scripts/world_cache.gd) | World art routing and prepared resources |
-| [`world34_detail.gd`](Source/scripts/world34_detail.gd) | Canal/Gardens decorative scenery builders |
-| [`tara_rig.gd`](Source/scripts/tara_rig.gd) / [`board_rig.gd`](Source/scripts/board_rig.gd) | Character and waterboard presentation |
-| [`support_art.gd`](Source/scripts/support_art.gd) | Boondi rig and reactions |
-| [`rain_field.gd`](Source/scripts/rain_field.gd) / [`audio_director.gd`](Source/scripts/audio_director.gd) | Weather and audio presentation |
+| `main.gd` (`Source/scripts/main.gd`) | Application orchestration, input and screen/world coordination |
+| `run_model.gd` (`Source/scripts/run_model.gd`) | Gameplay simulation, movement, obstacle interaction and crossings |
+| `progression.gd` (`Source/scripts/progression.gd`) | Missions, accumulated progress and world unlock rules |
+| `save_store.gd` (`Source/scripts/save_store.gd`) | Persistence, validation, recovery and committed rewards |
+| `catalogue.gd` (`Source/scripts/catalogue.gd`) | Character/cosmetic definitions and ownership validation |
+| `interface.gd` (`Source/scripts/interface.gd`) | Menus, HUD, results and settings presentation |
+| `home_dashboard.gd` (`Source/scripts/home_dashboard.gd`) | Home dashboard composition |
+| `world_art.gd` (`Source/scripts/world_art.gd`) / `world_cache.gd` (`Source/scripts/world_cache.gd`) | World art routing and prepared resources |
+| `world34_detail.gd` (`Source/scripts/world34_detail.gd`) | Canal/Gardens decorative scenery builders |
+| `tara_rig.gd` (`Source/scripts/tara_rig.gd`) / `board_rig.gd` (`Source/scripts/board_rig.gd`) | Character and waterboard presentation |
+| `support_art.gd` (`Source/scripts/support_art.gd`) | Boondi rig and reactions |
+| `rain_field.gd` (`Source/scripts/rain_field.gd`) / `audio_director.gd` (`Source/scripts/audio_director.gd`) | Weather and audio presentation |
 
 Decorative world art is kept separate from collision rules. Water animation follows the simulation clock and reduced-motion preference, while prepared assets reduce the need to build scenery repeatedly at runtime.
 
-### Repository layout
+### Complete package layout
 
 | Location | Contents |
 |---|---|
@@ -295,6 +297,8 @@ Decorative world art is kept separate from collision rules. Water animation foll
 
 ## Run from source
 
+The runnable source/assets are distributed separately; cloning this repository alone does not currently provide a complete Godot project. The file/module paths below describe the complete source package.
+
 ### Requirements
 
 - Godot **4.5.2 Standard** for the supplied GDScript project.
@@ -304,8 +308,8 @@ Decorative world art is kept separate from collision rules. Water animation foll
 ### Open in the editor
 
 ```bash
-git clone https://github.com/Monasri29-hub/monsoon_dash.git
-cd monsoon_dash
+# Extract the full source package into a local project folder first.
+cd Monsoon-Dash
 godot --editor --path Source
 ```
 
@@ -357,7 +361,7 @@ This targeted bake prepares Canal Works and Cloud Gardens assets while retaining
 | Android packaging | Version, architecture, signature continuity, permissions and provider authorities checked |
 | Alignment | ZIP and static native 16 KB checks passed |
 
-See [test results](QA/test-results.json), [APK audit](QA/apk/apk-audit.json), [runtime asset verification](QA/apk/runtime-assets.json) and [the current world update](Source/WORLD-3-4-UPDATE.md).
+See [test results](QA/test-results.json), [APK audit](QA/apk/apk-audit.json), [runtime asset verification](QA/apk/runtime-assets.json) and the current world update (`Source/WORLD-3-4-UPDATE.md`).
 
 These are scoped results for the recorded candidate. They do not claim that every historical suite was rerun for this visual-only update.
 
@@ -400,18 +404,18 @@ For source contributions, describe the concrete behavior being changed, keep cha
 
 The project was developed through an AI-assisted workflow for design, implementation, asset iteration and testing. Editable sources and verification evidence are included so the implementation can be inspected and extended.
 
-- **Godot:** engine under its included MIT notice, [`Source/GODOT_LICENSE.txt`](Source/GODOT_LICENSE.txt).
+- **Godot:** engine under its included MIT notice, `Source/GODOT_LICENSE.txt` (`Source/GODOT_LICENSE.txt`).
 - **Characters and scenery:** project-authored editable art, GLBs, textures and procedural builders.
-- **Background/concept art:** project-generated scenery and user-supplied design-document panels, documented in [`RIGHTS.md`](Source/assets/ui/home/RIGHTS.md).
-- **Font:** Bangers by Vernon Adams, under the included [SIL Open Font License](Source/assets/fonts/Bangers-LICENSE.txt).
-- **Audio:** original deterministic compositions and synthesized Foley; see [audio rights](Source/audio/RIGHTS.md).
+- **Background/concept art:** project-generated scenery and user-supplied design-document panels, documented in `RIGHTS.md` (`Source/assets/ui/home/RIGHTS.md`).
+- **Font:** Bangers by Vernon Adams, under the included SIL Open Font License (`Source/assets/fonts/Bangers-LICENSE.txt`).
+- **Audio:** original deterministic compositions and synthesized Foley; see audio rights (`Source/audio/RIGHTS.md`).
 - **Screenshots/video:** actual desktop game renderer; the overview is a contact sheet assembled from captures.
 
 The repository's existing [MIT license](LICENSE) applies to project code. Third-party components retain their own license terms. See [docs/CREDITS.md](docs/CREDITS.md) for provenance details.
 
 ## Media paths for maintainers
 
-All image `src` attributes above use this repository's raw `main` URLs. The linked video preview uses the actual `.mp4` path rather than relying on an HTML video player inside GitHub Markdown.
+All image `src` attributes above use repository-relative paths. The screenshots and demo have been uploaded at those paths. The linked video preview uses the actual `.mp4` path rather than relying on an HTML video player inside GitHub Markdown.
 
 | Asset | Required repository path |
 |---|---|
@@ -429,6 +433,6 @@ All image `src` attributes above use this repository's raw `main` URLs. The link
 | Android installer | `downloads/Monsoon-Dash.apk` |
 | APK checksum | `downloads/SHA256SUMS.txt` |
 
-**Publication checklist:** Save this file as `README.md` at the repository root. Merge the full source package's `Source/` and `QA/` folders with the showcase kit's `docs/` and `downloads/` folders. Upload the files using the exact paths above. Media and installer links become live only after those files are pushed; writing this README does not itself publish them.
+**Publication checklist:** Save this file as `README.md` at the repository root. Merge the full source package's `Source/` and `QA/` folders with the showcase kit's `docs/` and `downloads/` folders. Upload the files using the exact paths above. These paths work within the extracted complete package. On GitHub, the same files must be committed at the same paths.
 
 For distribution through GitHub Releases, attach the APK to a release and replace the APK button with that asset's actual published download URL. Do not publish private signing keys from a development archive. Preserve the provided credits and licenses.

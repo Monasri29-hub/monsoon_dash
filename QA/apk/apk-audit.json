@@ -1,0 +1,54 @@
+{
+  "apk_sha256": "a68bc83789e71c3371f98075dd613b19c25677efd5142e85a49878524f94691e",
+  "version": "0.41.0",
+  "version_code": 40,
+  "target_sdk": 36,
+  "min_sdk": 24,
+  "non_debuggable": true,
+  "permission": "VIBRATE only",
+  "same_existing_certificate": true,
+  "zip_alignment": "passed",
+  "native_16kb_static_checks": "passed",
+  "libraries": [
+    {
+      "file": "lib/arm64-v8a/libgodot_android.so",
+      "sha256": "7c226b924a1a1df9d646b13ad9c4687529f29fb8d697a409cec8e5192dde9078",
+      "load_segments": [
+        {
+          "alignment": 16384,
+          "congruent": true
+        },
+        {
+          "alignment": 16384,
+          "congruent": true
+        },
+        {
+          "alignment": 16384,
+          "congruent": true
+        },
+        {
+          "alignment": 16384,
+          "congruent": true
+        }
+      ],
+      "relro_segments": [
+        {
+          "end_modulo_16384": 0
+        }
+      ]
+    }
+  ],
+  "physical_runtime_16kb": "not tested",
+  "prepared_world_scenes": 56,
+  "providers": [
+    {
+      "name": "androidx.core.content.FileProvider",
+      "authorities": "org.monsoondash.prototype.fileprovider"
+    },
+    {
+      "name": "androidx.startup.InitializationProvider",
+      "authorities": "org.monsoondash.prototype.androidx-startup"
+    }
+  ],
+  "unique_provider_authorities": true
+}

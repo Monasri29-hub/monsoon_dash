@@ -1,0 +1,497 @@
+{
+  "runtime_scripts": [
+    {
+      "source_file": "scripts/main.gd",
+      "source_sha256": "43a0c425be9a8a30b0f313e4ee850eee618d189592ea9d376b4860a5c42cb424",
+      "compiled_file": "scripts/main.gdc",
+      "compiled_sha256": "792f2dabc113a5091a14e28dd3a9d8c3d29fe855a797eee7fc514a62c69756eb",
+      "compiled_in_apk": true
+    },
+    {
+      "source_file": "scripts/frame_sampler.gd",
+      "source_sha256": "c8a45df789ae14663127b3df09f76e020ac9a2e0646b3235cb72aba8e33c8986",
+      "compiled_file": "scripts/frame_sampler.gdc",
+      "compiled_sha256": "04bff04ef748817e00f4c00fc253bbdac5cbfcc8e520103e03a423295b25da5a",
+      "compiled_in_apk": true
+    },
+    {
+      "source_file": "scripts/tara_rig.gd",
+      "source_sha256": "f41b91026d4ba28404235de337b13dbc8db7d602ac87cc066d09785d2550acca",
+      "compiled_file": "scripts/tara_rig.gdc",
+      "compiled_sha256": "814edc21c6da297b346331370835f17aa4497cfc10947f96fe336338fb531b94",
+      "compiled_in_apk": true
+    },
+    {
+      "source_file": "scripts/support_art.gd",
+      "source_sha256": "73c44cda802165d8cdfc335d159c9a76f5ccc336817a3207f44d288a05ca0008",
+      "compiled_file": "scripts/support_art.gdc",
+      "compiled_sha256": "b57999cdfec190ef1cf4e7993fa4a5e0b0397a270250ca49c961ce4eea208fd0",
+      "compiled_in_apk": true
+    },
+    {
+      "source_file": "scripts/interface.gd",
+      "source_sha256": "88527aa1b5e40215b01a246990f04cf11058e096a6645d9bee5430e8c6050710",
+      "compiled_file": "scripts/interface.gdc",
+      "compiled_sha256": "904b3e2371e63a111c3c5c49e91f4106f5f797299b431b09dc8279006e38f5a4",
+      "compiled_in_apk": true
+    },
+    {
+      "source_file": "scripts/home_dashboard.gd",
+      "source_sha256": "90eb84c35fe4227de32bfeab1d16be602fc273066aaa6a8733a7a035f7439c7e",
+      "compiled_file": "scripts/home_dashboard.gdc",
+      "compiled_sha256": "fe0c60a2a455e60ea19fb0fb21ec29a53d1a1af7127fa4302f5cc362906f883d",
+      "compiled_in_apk": true
+    },
+    {
+      "source_file": "scripts/save_store.gd",
+      "source_sha256": "8d70a96305ce2f27844f95ba1b8170a316d11c6c0ec1c0f945752a1c61bae02e",
+      "compiled_file": "scripts/save_store.gdc",
+      "compiled_sha256": "b4ca31f4eadc5c731e0a7c12931e12bdcd799a1d67875e6ace77f8c834aa44e7",
+      "compiled_in_apk": true
+    },
+    {
+      "source_file": "scripts/rain_field.gd",
+      "source_sha256": "3670e43030c02228c72b87d73a990fd931e11fb9d859afdd562d644cd71437ca",
+      "compiled_file": "scripts/rain_field.gdc",
+      "compiled_sha256": "c19299b7a4a017aa6ae27de1c4dd38f08515e38769e0ab9908e919e80de35030",
+      "compiled_in_apk": true
+    },
+    {
+      "source_file": "scripts/ui_theme.gd",
+      "source_sha256": "7ce291133dbe76bd52cd6d0dc89fc70e0acfa9e93ad1ce90fa500a9dcf214e4c",
+      "compiled_file": "scripts/ui_theme.gdc",
+      "compiled_sha256": "de90b14a8e0e19427d9bbb6951f091d632d1d1e5dafe631f28bacf57bc09d112",
+      "compiled_in_apk": true
+    },
+    {
+      "source_file": "scripts/district_art.gd",
+      "source_sha256": "ee016c1343dc071f2c7468f8aa2e0e156bf46bd1673f0fdb1ab856be1032e5bc",
+      "compiled_file": "scripts/district_art.gdc",
+      "compiled_sha256": "b21b8c052bcec6b9a311638dc3cfe7e0cfe00c3fdc74960a29b08a4a0b61a6a4",
+      "compiled_in_apk": true
+    },
+    {
+      "source_file": "scripts/world34_detail.gd",
+      "source_sha256": "42bab2b288fafe493b370b2ea76350675881e36b080b1de91512f512c9f0bea0",
+      "compiled_file": "scripts/world34_detail.gdc",
+      "compiled_sha256": "a6696f6b452780eb813a9db0b344e66f43d74dc9c28da00650e4849e11109404",
+      "compiled_in_apk": true
+    }
+  ],
+  "world_caches_match_source": 56,
+  "new_styles": [
+    {
+      "import_metadata": "assets/ui/polish/quiet_glass.svg.import",
+      "compiled_textures": [
+        "assets/.godot/imported/quiet_glass.svg-ca05efce99bc4bfe0622d1a094dc15f8.ctex"
+      ]
+    },
+    {
+      "import_metadata": "assets/ui/polish/selected_glass.svg.import",
+      "compiled_textures": [
+        "assets/.godot/imported/selected_glass.svg-8b996fcdbe283c6a2eb1ca82462aedb9.ctex"
+      ]
+    }
+  ],
+  "character_and_portrait_imports": [
+    {
+      "source": "assets/characters/boondi/boondi.glb.import",
+      "runtime_resources": [
+        ".godot/imported/boondi.glb-7fd4fea3badd930c1f3beb66ece395a6.scn"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/isha/isha.glb.import",
+      "runtime_resources": [
+        ".godot/imported/isha.glb-dbf7ac96dc05f45ebad047095a70f013.scn"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/kabir/kabir.glb.import",
+      "runtime_resources": [
+        ".godot/imported/kabir.glb-ee60e33fb1668797d9563b27cf761613.scn"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/rao/rao.glb.import",
+      "runtime_resources": [
+        ".godot/imported/rao.glb-a0911fb088b71cd3f5e8fb3838c9b031.scn"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/tara/tara.glb.import",
+      "runtime_resources": [
+        ".godot/imported/tara.glb-faa30de216cca42a459d0db78736aec0.scn"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/tara/tara_umbrella.glb.import",
+      "runtime_resources": [
+        ".godot/imported/tara_umbrella.glb-e2a2dce53fce6bd22f36dbfab7403462.scn"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/veer/veer.glb.import",
+      "runtime_resources": [
+        ".godot/imported/veer.glb-f12527fb6e6dd986581755be1b7c12eb.scn"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/isha/base_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/base_atlas.png-ea3048ddae62a6cdd1c606f2f987417e.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/isha/dawn_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/dawn_atlas.png-439b5c935cebd11e68b17c396440ac8e.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/isha/isha_base_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/isha_base_atlas.png-bdcba0d5f8c3f804161c1234feffbcc1.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/isha/night_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/night_atlas.png-130cb75234f089e51453b3a290ddac06.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/isha/umbrella_base_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/umbrella_base_atlas.png-e034f9226523ddc2bbb42aec4eebd846.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/kabir/base_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/base_atlas.png-d210d6200a9f95e97991a9ef7cea16be.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/kabir/kabir_base_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/kabir_base_atlas.png-e2bc9e926e6979337eb093cafb180fd7.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/kabir/navy_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/navy_atlas.png-5485352c3fe9a9a02da2b497475e8ab0.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/kabir/teal_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/teal_atlas.png-bf72fc12aea67de1c818ade98914f266.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/kabir/umbrella_base_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/umbrella_base_atlas.png-5982bcc20f33d1bf97cbdbcaf5b04201.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/rao/base_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/base_atlas.png-fe45e5006a852f16f90b2f13d89150f8.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/rao/rao_base_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/rao_base_atlas.png-e697a057c0c37e87f1509845bc43d944.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/rao/umbrella_base_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/umbrella_base_atlas.png-1808bbcf8930bd27911682dfb4f64e60.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/tara/base_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/base_atlas.png-c2ab20f9572a130d0c81c5cb76ea1f8d.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/tara/coral_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/coral_atlas.png-478476ece22a6f45de91a726fadc6f4c.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/tara/mustard_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/mustard_atlas.png-520932af531c4b569c3258d921ecb8ff.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/tara/tara_base_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/tara_base_atlas.png-5c3e9b2f881a4ec9fd4ab21ba2c3ea8f.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/tara/tara_umbrella_umbrella_base_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/tara_umbrella_umbrella_base_atlas.png-bca19c37259d12b31870f127df4f31c1.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/tara/umbrella_base_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/umbrella_base_atlas.png-de9e49b6df11f2aaa6d865279950a970.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/tara/umbrella_cloudline_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/umbrella_cloudline_atlas.png-7783d53662be526401ebc33ecef8f8e4.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/tara/umbrella_copper_rain_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/umbrella_copper_rain_atlas.png-9a744fc9abf17313901869b9b2e6ef3b.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/tara/umbrella_paper_kite_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/umbrella_paper_kite_atlas.png-fa50905ddbaa2fe1f1b4cf8542d18b8b.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/veer/base_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/base_atlas.png-f86523fe380cb718996807c8c0a0bcdb.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/veer/blue_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/blue_atlas.png-b85e6c3278c819a92222dc2bd0338205.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/veer/green_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/green_atlas.png-f041e9a48d6b5f17248f5bce743a4da0.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/veer/umbrella_base_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/umbrella_base_atlas.png-aad521e66011d2c658a40aee7a34f791.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/veer/veer_base_atlas.png.import",
+      "runtime_resources": [
+        ".godot/imported/veer_base_atlas.png-cf8dfb69b01dfabcc0facc391d369dcf.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/isha/detail_normal.png.import",
+      "runtime_resources": [
+        ".godot/imported/detail_normal.png-fb104fb11e2c1844d6d73e8ae4423aca.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/isha/detail_orm.png.import",
+      "runtime_resources": [
+        ".godot/imported/detail_orm.png-c792e5dd22edc860efa5fcf0259efc1c.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/kabir/detail_normal.png.import",
+      "runtime_resources": [
+        ".godot/imported/detail_normal.png-9afa3ebee37b65a9b0529ffbafbecf4b.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/kabir/detail_orm.png.import",
+      "runtime_resources": [
+        ".godot/imported/detail_orm.png-09ad820fc9348121316dd8414a69b9bd.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/rao/detail_normal.png.import",
+      "runtime_resources": [
+        ".godot/imported/detail_normal.png-de282b172678dbfa96e84ed62f6361ed.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/rao/detail_orm.png.import",
+      "runtime_resources": [
+        ".godot/imported/detail_orm.png-18f92dc72de22a719442a8b96947592c.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/tara/detail_normal.png.import",
+      "runtime_resources": [
+        ".godot/imported/detail_normal.png-4b8dc513638454c41d26ac61ea84c13f.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/tara/detail_orm.png.import",
+      "runtime_resources": [
+        ".godot/imported/detail_orm.png-67c7ebe8986b7574f6a610883e4a2443.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/veer/detail_normal.png.import",
+      "runtime_resources": [
+        ".godot/imported/detail_normal.png-83eaadf62e914afb5f03e8f00923bef6.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/characters/veer/detail_orm.png.import",
+      "runtime_resources": [
+        ".godot/imported/detail_orm.png-f6ecf35eb13eb93aeb99373895cd8fcb.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/ui/portraits/isha_base.png.import",
+      "runtime_resources": [
+        ".godot/imported/isha_base.png-bcf6aeebcfe17654018f4e715edc4643.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/ui/portraits/isha_dawn.png.import",
+      "runtime_resources": [
+        ".godot/imported/isha_dawn.png-d40cf56949e993458d8d4017ace79f5c.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/ui/portraits/isha_night.png.import",
+      "runtime_resources": [
+        ".godot/imported/isha_night.png-510b646bf2ec51a1aa1e2637aff860b6.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/ui/portraits/kabir_base.png.import",
+      "runtime_resources": [
+        ".godot/imported/kabir_base.png-d023d6fbb20af570df6dde2a047d35b9.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/ui/portraits/kabir_navy.png.import",
+      "runtime_resources": [
+        ".godot/imported/kabir_navy.png-8d25be7aebc54e493802f01ffb661880.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/ui/portraits/kabir_teal.png.import",
+      "runtime_resources": [
+        ".godot/imported/kabir_teal.png-df3e280798162c2b10e2c450ff9bec9b.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/ui/portraits/rao_base.png.import",
+      "runtime_resources": [
+        ".godot/imported/rao_base.png-b4ace17a651704e5519da9e0e0d3304b.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/ui/portraits/tara_base.png.import",
+      "runtime_resources": [
+        ".godot/imported/tara_base.png-ba2018dc613a89d621461f2c52153357.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/ui/portraits/tara_coral.png.import",
+      "runtime_resources": [
+        ".godot/imported/tara_coral.png-3ccfaa9801bb6506db06a7cd321acbc2.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/ui/portraits/tara_mustard.png.import",
+      "runtime_resources": [
+        ".godot/imported/tara_mustard.png-fbac26c0b50d4b45ab738412c112a1b4.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/ui/portraits/veer_base.png.import",
+      "runtime_resources": [
+        ".godot/imported/veer_base.png-8851bcf4c64ff7bb4d7b04c6438a1de0.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/ui/portraits/veer_blue.png.import",
+      "runtime_resources": [
+        ".godot/imported/veer_blue.png-2661db83b6b02ba6864d7c22b1af473b.ctex"
+      ],
+      "matches": true
+    },
+    {
+      "source": "assets/ui/portraits/veer_green.png.import",
+      "runtime_resources": [
+        ".godot/imported/veer_green.png-c571dafb6898dd66d0207beb86d4bfb6.ctex"
+      ],
+      "matches": true
+    }
+  ]
+}
